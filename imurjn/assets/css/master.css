@@ -19747,6 +19747,7 @@ img {
 .job__detail-wrapper {
   padding-top: 60px;
   padding-right: 120px;
+  padding-left: 80px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .job__detail-wrapper {
@@ -20633,7 +20634,7 @@ img {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .hero__area-5 {
-    padding: 185px 0px 80px;
+    padding: 185px 100px 80px;
     background-size: 90%;
   }
 }
