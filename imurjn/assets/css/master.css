@@ -21393,7 +21393,7 @@ img {
   border-bottom: 1px solid var(--black-6);
 }
 .footer__top-wrapper-3 {
-  padding: 0 50px;
+  padding: 0 100px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 10% auto;
@@ -21511,7 +21511,7 @@ img {
   }
 }
 .footer__btm-3 {
-  padding: 50px;
+  padding: 100px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer__btm-3 {
