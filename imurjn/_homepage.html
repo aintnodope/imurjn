@@ -86,7 +86,7 @@
   <!-- Go Top Button -->
   <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
 
-  <!-- Header area start -->
+  <!-- Header area start --> 
   <header class="header__area-3">
     <div class="header__inner-3">
       <div class="header__logo-2">
@@ -98,12 +98,16 @@
           <li class="has-megamenu"><a href="_homepage.html">home</a>
           </li>
 
-          <li><a href="_about.html">about</a></li>
-
-          <li class="has-megamenu"><a href="_portfolio.html">projects</a>
-            
+          <li><a href="#">about</a>
+          <ul class="main-dropdown">
+            <li><a href="_about.html">about you</a></li>
+            <li><a href="_about.html">about us</a></li>
+            <li><a href="_team-imurj.html">leadership</a></li>
+          </ul>
           </li>
-          <li><a href="_service.html">services</a>
+  
+          </li>
+          <li><a href="#">services</a>
             <ul class="main-dropdown">
               
               <li><a href="_service-detail-web.html">Web Design & Development</a></li>
@@ -115,21 +119,24 @@
               <li><a href="_service-detail-animations.html">Illustrations & Animations</a></li>
             </ul>
           </li>
-          <li><a href="_team.html">the team</a>
+          <!--<li><a href="_team-imurj.html">the team</a>
             <ul class="main-dropdown">
-              <li><a href="team.html">team</a></li>
-              <li><a href="team-details.html">team details</a></li>
+              <li><a href="_team-imurj.html">team</a></li>
+              <li><a href="_career.html">join our team</a></li>
+              <li><a href="_team-details.html">founder</a></li>
             </ul>
-          </li>
+          </li> -->
+          <li class="has-megamenu"><a href="_portfolio.html">case studies</a>
           <li><a href="_blog.html">views</a>
-            <ul class="main-dropdown">
-              <li><a href="blog.html">blog</a></li>
-              <li><a href="blog-2.html">blog v.2</a></li>
-              <li><a href="category.html">category</a></li>
-              <li><a href="blog-details.html">blog details</a></li>
-            </ul>
           </li>
           <li><a href="_contact.html">connect</a>
+            <ul class="main-dropdown">
+              <li><a href="_contact.html">contact us</a></li>
+              <li><a href="_career.html">join our team</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">shop</a>
           </li>
         </ul>
       </div>
@@ -220,13 +227,14 @@
               <div class="col-xxl-12">
                 <div class="hero__inner-3">
                   <div class="sec-title-wrapper">
-                    <h2 class="sec-sub-title">Creative</h2>
-                    <h3 class="sec-title title-left">Mark</h3>
-                    <h3 class="sec-title title-right">eting</h3>
+                    <h2 class="sec-sub-title">Hi! We Are</h2>
+                    <h3 class="sec-title title-left">IMURJN</h3>
+                    <h3 class="sec-title title-right">CREATIVE</h3>
                   </div>
-                  <div class="hero__text-3">
-                    <p class="animation__word_come">We leverage branding, web development, marketing and hustle to provide big brand experiences for small to mid-sized businesses, non-profits and startups. </p>
-                  </div>
+                 <div class="hero__text-3">
+                    <p class="animation__word_come" id="silent"> <!--forced fix .silent in css op:0-->
+                      We leverage branding, web development, marketing and hustle to provide big brand experiences for small to mid-sized businesses, non-profits and startups. </p>
+                  </div>  
                   <div class="scroll-down">
                     <button><img src="assets/imgs/icon/arrow-down-sm.png" alt="arrow icon"></button>
                   </div>
@@ -250,6 +258,7 @@
             </div>
           </div>
 
+          <br>
           <img src="assets/imgs/hero/3/3_2.png" alt="Hero Image" class="hero3-img">
         </section>
 
@@ -450,7 +459,7 @@
             <div class="row">
               <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                 <div class="sec-title-wrapper wrap">
-                  <h2 class="sec-sub-title title-anim">Our Services</h2>
+                  <h2 class="sec-sub-title title-anim">OUR SERVICES</h2>
                   <h3 class="sec-title title-anim">Solutions We <br>Provide</h3>
                 </div>
               </div>
