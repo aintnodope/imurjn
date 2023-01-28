@@ -334,8 +334,8 @@
         clip-path: var(--clip-path);
         transition: clip-path var(--duration) var(--timing-function);
         position: relative;
-        top: 55px;
-        left: 100px;
+       // top: 55px;
+        //left: 100px;
 
 
         &::before {
